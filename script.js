@@ -34,7 +34,7 @@ function switchPlayer() {
   player1El.classList.toggle("player--active"); // deletes it if there is
 }
 
-// Rolling dice funcionality
+// Rolling dice functionality
 btnRoll.addEventListener("click", function () {
   if (playing) {
     // Generating random dice roll
@@ -87,6 +87,7 @@ btnHold.addEventListener("click", function () {
   }
 });
 
+// on clicking button for new game:
 btnReset.addEventListener("click", function () {
   scores[0] = 0;
   scores[1] = 0;
